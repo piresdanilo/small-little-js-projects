@@ -1,0 +1,43 @@
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    border: 2px solid;
+    padding: 20px;
+}
+
+.containerButtons {
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    padding: 0px 0px 10px 5px;
+    border: 1px solid;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.buttonColor {
+    width: 20px;
+    height: 20px;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: rgb(252, 74, 74);
+}
+
+.blue {
+    background-color: rgb(138, 241, 236);
+}
+
+.yellow{
+    background-color: rgb(255, 255, 128);
+}
+
+.pink{
+    background-color: pink;
+}

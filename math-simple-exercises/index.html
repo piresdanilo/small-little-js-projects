@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Exercising</title>
+</head>
+<body>
+    <div class="container white">
+      <h2>Insert 2 numbers and do the Math</h2>
+      <input type="number" id="numberOne">
+      <input type="number" id="numberTwo">
+      <br>
+      <button id="button" onclick="sum()">+</button>
+      <p id="resultSpot">The result will be here.</p>
+      <hr>
+      <p>Choose a color:</p>
+      <div class="containerButtons">
+        <button id="buttonWhite" class="buttonColor white" onclick="turnWhite()"></button>
+        <button id="buttonRed" class="buttonColor red" onclick="turnRed()"></button>
+        <button id="buttonBlue" class="buttonColor blue" onclick="turnBlue()"></button>
+        <button id="buttonYellow" class="buttonColor yellow" onclick="turnYellow()"></button>
+        <button id="buttonPink" class="buttonColor pink" onclick="turnPink()"></button>
+      </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
