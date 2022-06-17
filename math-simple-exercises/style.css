@@ -3,6 +3,7 @@
     margin: 0 auto;
     border: 2px solid;
     padding: 20px;
+    border-radius: 1%;
 }
 
 .containerButtons {
@@ -20,6 +21,7 @@ button {
 .buttonColor {
     width: 20px;
     height: 20px;
+    border-color: none;
 }
 
 .white {
